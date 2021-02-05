@@ -32,11 +32,13 @@ namespace Tims_1
             InitStartSpace();
             col = Color.Red;
             rand = new Random(0);
+            textBox_count.Text = Convert.ToString(100);
         }
 
         private void button_clear_Click(object sender, EventArgs e)
         {
             InitStartSpace();
+            textBox_count.Text = Convert.ToString(100);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -65,8 +67,7 @@ namespace Tims_1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            n = 0;
-            k = 0;
+            n = 0; k = 0;
             try
             {
                 n = Convert.ToInt32(textBox_count.Text);
@@ -97,7 +98,8 @@ namespace Tims_1
                 bmp.SetPixel(x + 1, y + 1, col);
                 pictureBox1.Image = bmp;
             }
-            textBox_result.Text = Convert.ToString(k / n);
+            
+            textBox_result.Text = Convert.ToString(Convert.ToDouble(k / n));
         }
 
 
@@ -110,7 +112,6 @@ namespace Tims_1
             gp.DrawRectangle(pen1, 0, 0, pictureBox1.Width, pictureBox1.Height);
             gp.DrawEllipse(pen2, 2, 2, pictureBox1.Width - 2, pictureBox1.Height - 2);
             pictureBox1.Image = bmp;
-            n = 0; k = 0;
         }
     }
 }
