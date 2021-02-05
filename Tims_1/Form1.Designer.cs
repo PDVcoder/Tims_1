@@ -109,6 +109,7 @@ namespace Tims_1
             // 
             this.textBox_result.Location = new System.Drawing.Point(12, 180);
             this.textBox_result.Name = "textBox_result";
+            this.textBox_result.ReadOnly = true;
             this.textBox_result.Size = new System.Drawing.Size(100, 20);
             this.textBox_result.TabIndex = 7;
             // 

@@ -38,7 +38,9 @@ namespace Tims_1
         private void button_clear_Click(object sender, EventArgs e)
         {
             InitStartSpace();
-            textBox_count.Text = Convert.ToString(100);
+            textBox_count.Text = "0";
+            textBox_result.Text = "0";
+            n = 0; k = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
