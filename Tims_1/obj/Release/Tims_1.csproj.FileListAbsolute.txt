@@ -1,0 +1,9 @@
+D:\Projects\C#\Tims_1\Tims_1\bin\Release\Tims_1.exe.config
+D:\Projects\C#\Tims_1\Tims_1\bin\Release\Tims_1.exe
+D:\Projects\C#\Tims_1\Tims_1\bin\Release\Tims_1.pdb
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.Form1.resources
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.Properties.Resources.resources
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.csproj.GenerateResource.cache
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.exe
+D:\Projects\C#\Tims_1\Tims_1\obj\Release\Tims_1.pdb
